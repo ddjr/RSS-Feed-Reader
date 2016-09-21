@@ -1,0 +1,104 @@
+html {
+    font-size: 16px;
+}
+.masthead  {
+    position: relative;
+    min-height: 90px;
+    padding: 8px 0;
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 2px solid #000;
+}
+.masthead .masthead-menu {
+    width: 570px;
+    margin: 0 auto;
+    text-align: center;
+    padding-left: 0;
+}
+.masthead .masthead-menu li {
+    font-size: 11px;
+    font-size: 0.6875rem;
+    line-height: 11px;
+    line-height: 0.6875rem;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "nyt-franklin",arial,helvetica,sans-serif;
+    display: inline-block;
+    height: 10px;
+    padding: 0 10px;
+    border-left: 1px solid #e2e2e2;
+    color: #333;
+}
+.masthead .masthead-menu li:first-child {
+    border-left: none;
+}
+.branding {
+    text-align: center;
+}
+.main {
+    border-top: 1px solid #d3d3d3;
+    padding-top: 7px;
+    padding-top: 10px;
+}
+ul {
+    margin: 5px 2px 5px 0;
+
+}
+li {
+    padding: 0 4px;
+    font-size: 12px;
+    font-size: 0.75rem;
+    line-height: 16px;
+    line-height: 1rem;
+    font-weight: 500;
+    font-style: normal;
+    font-family: "nyt-franklin",arial,helvetica,sans-serif;
+    display: inline-block;
+    vertical-align: top;
+    text-transform: capitalize;
+    color: #000;
+}
+.button {
+    font-size: 11px;
+    font-size: 0.6875rem;
+    line-height: 13px;
+    line-height: 0.8125rem;
+    font-weight: 500;
+    font-style: normal;
+    font-family: "nyt-franklin",arial,helvetica,sans-serif;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+    display: inline-block;
+    margin: 0;
+    padding: 7px 9px;
+    border: 1px solid #e2e2e2;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+a, a:link, a:visited {
+    color: #000;
+    text-decoration: none;
+}
+.layout-horizontal{
+    border-top: 1px solid #d3d3d3;
+}
+.col-xs-2-5ths,
+.col-sm-2-5ths,
+.col-md-2-5ths,
+.col-lg-2-5ths {
+    border-left: 1px solid #d3d3d3;
+}
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+    border-left: 1px solid #d3d3d3;
+}
+.split {
+    border-right: 1px solid #d3d3d3;
+}
+.col-first_child {
+    border-left: 0px solid;
+}
+
